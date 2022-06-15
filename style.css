@@ -1,13 +1,15 @@
+/* Navbar Section */
 * {
   margin: 0;
   background-color: black;
   color: white;
 }
-/* Navbar Section */
 .Navbar {
-  margin: 2rem 3rem;
+  margin: 4rem 3rem;
   z-index: 100;
   position: static;
+  display: inline-block;
+  width: 40.2rem;
 }
 #Navbar {
   float: left;
@@ -149,15 +151,17 @@ footer {
     margin: 0;
     padding: 0;
   }
-
+  
   /* Navbar Section */
   .Navbar {
-    margin: 2rem -2rem;
+    margin: 2rem 0rem;
     z-index: 100;
     position: static;
+    display: inline-block;
+    width: 25rem;
   }
   #head {
-    margin: 0px 1rem 0px 2.4rem;
+    margin: 0px 1rem 0px 1.4rem;
     text-decoration: none;
   }
   /* About Section */
